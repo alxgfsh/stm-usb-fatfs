@@ -7,10 +7,10 @@ Example for how to use STM32 usb interface as Mass storage device accessing SD c
 3. Generate the code using STM32CubeIDE and modify "USB_DEVICE/usbd_storage_if.c"
 4. Check out "Core/Src/main.c", here we mount the SD card using "f_mount"
 
-P.S. STM32CubeIDE version 1.17 is I think the last version with CubeMX function built-in for viewing .ioc so in case newer version, you might also need to download STM32CubeMX
+P.S. STM32CubeIDE version 1.17 is the last version with CubeMX function built-in for viewing .ioc
 
 ## STM Interface Requirements
-- USB FS or HS (Though, HS usually requires external PHY)
+- USB FS or HS
 - SDMMC/SDIO
 
 ## Useful references
