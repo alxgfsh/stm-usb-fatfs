@@ -2,7 +2,6 @@
 Example for how to use STM32 usb interface as Mass storage device accessing SD card through 4-Wire SDMMC interface and implementing FatFS filesystem
 
 ![Dev board trace](/assets/images/stmf411dev.png)
-![Dev board assembled](/assets/images/stmf411dev-pcb.png)
 
 ## How to setup
 ### Option 1: Copy over
